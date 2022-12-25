@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Learner</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/test.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Anybody:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+	<script src="https://kit.fontawesome.com/4fba28eda8.js" crossorigin="anonymous"></script>
+	<!--иконки социальных сетей-->
+</head>
+
+<body>
+	<div class="page">
+
+		<div class="scroll-up">
+			<i class="fa-sharp fa-solid fa-arrow-up"></i>
+		</div>
+
+		<div class="return">
+			<a href="index.html"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+		</div>
+
+
+		<header class="header">
+			<div class="header_logo">
+
+				<a href="index.html" id="text_logo_green"> <strong>Learner</strong></a>
+			</div>
+
+
+			<div class="menu">
+				<nav class="header_menu">
+					<ul class="header_list">
+						<li>
+							<a href="" class="header_link">Home</a>
+						</li>
+						<li>
+							<a href="" class="header_link">About Us</a>
+						</li>
+						<li>
+							<a href="" class="header_link">Catalog</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="login">
+					<a href="login.html" class="login_button">Login</a>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<form name="quiz" class="quiz" id="quiz" action="javascript:check();">
+				<h3> 1. I _____ teacher. </h3>
+				<input name="vopros1" checked="checked" value="no" id="value1" type="radio"> are <br>
+				<input name="vopros1" value="yes" id="value2" type="radio"> am <br>
+				<input name="vopros1" value="no" id="value3" type="radio"> be <br>
+				<input name="vopros1" value="nо" id="value4" type="radio"> is <br><br>
+			
+				<h3> 2. _____ you play chess? </h3>
+				<input name="vopros2" checked="checked" value="no" id="value1" type="radio"> are <br>
+				<input name="vopros2" value="no" id="value2" type="radio"> know <br>
+				<input name="vopros2" value="yes" id="value3" type="radio"> can <br>
+				<input name="vopros2" value="nо" id="value4" type="radio"> have <br><br>
+			
+				<h3> 3. What are you doing now? I _______ a letter. </h3>
+				<input name="vopros3" checked="checked" value="no" id="value1" type="radio"> is writing <br>
+				<input name="vopros3" value="no" id="value2" type="radio"> write <br>
+				<input name="vopros3" value="no" id="value3" type="radio"> be writing <br>
+				<input name="vopros3" value="yes" id="value4" type="radio"> am writing <br><br>
+			
+				<h3> 4. There isn't ________ fruit in the shop. </h3>
+				<input name="vopros4" checked="checked" value="no" id="value1" type="radio"> every <br>
+				<input name="vopros4" value="no" id="value2" type="radio"> some <br>
+				<input name="vopros4" value="no" id="value3" type="radio"> any <br>
+				<input name="vopros4" value="yes" id="value4" type="radio"> the <br><br>
+			
+				<h3> 5. I'm reading. What __________ doing? </h3>
+				<input name="vopros5" checked="checked" value="no" id="value1" type="radio"> you are <br>
+				<input name="vopros5" value="no" id="value2" type="radio"> you <br>
+				<input name="vopros5" value="no" id="value3" type="radio"> are <br>
+				<input name="vopros5" value="yes" id="value4" type="radio"> are you <br><br>
+			
+				<h3> 6. He __________ like basketball. </h3>
+				<input name="vopros6" checked="checked" value="no" id="value1" type="radio"> do not <br>
+				<input name="vopros6" value="yes" id="value2" type="radio"> doesn't <br>
+				<input name="vopros6" value="no" id="value3" type="radio"> don't <br>
+				<input name="vopros6" value="nо" id="value4" type="radio"> not <br><br>
+			
+				<h3> 7. __________ two sons.</h3>
+				<input name="vopros7" checked="checked" value="yes" id="value1" type="radio"> she has <br>
+				<input name="vopros7" value="no" id="value2" type="radio"> she have <br>
+				<input name="vopros7" value="no" id="value3" type="radio"> she get <br>
+				<input name="vopros7" value="nо" id="value4" type="radio"> she is <br><br>
+			
+				<h3> 8. I __________ to Ann's party last week.</h3>
+				<input name="vopros8" checked="checked" value="no" id="value1" type="radio"> am <br>
+				<input name="vopros8" value="no" id="value2" type="radio"> gone <br>
+				<input name="vopros8" value="yes" id="value3" type="radio"> went <br>
+				<input name="vopros8" value="nо" id="value4" type="radio"> was <br><br>
+			
+				<h3> 9. I __________ go to the "Astoria" restaurant but I don't any more.</h3>
+				<input name="vopros9" checked=" checked" value="no" id="value1" type="radio"> am used <br>
+				<input name="vopros9" value="no" id="value2" type="radio"> used to <br>
+				<input name="vopros9" value="yes" id="value3" type="radio"> did use <br>
+				<input name="vopros9" value="nо" id="value4" type="radio"> use <br><br>
+			
+				<h3> 10. Mike doesn't like school and __________.</h3>
+				<input name="vopros10" checked="checked" value="no" id="value1" type="radio"> neither I do <br>
+				<input name="vopros10" value="yes" id="value2" type="radio"> neither do I <br>
+				<input name="vopros10" value="no" id="value3" type="radio"> so do I <br>
+				<input name="vopros10" value="nо" id="value4" type="radio"> so I do <br><br>
+			
+				<h3> 11. Kate is good at maths but Jack is __________.</h3>
+				<input name="vopros11" checked="checked" value="no" id="value1" type="radio"> good <br>
+				<input name="vopros11" value="yes" id="value2" type="radio"> better <br>
+				<input name="vopros11" value="no" id="value3" type="radio"> badly <br>
+				<input name="vopros11" value="nо" id="value4" type="radio"> well <br><br>
+			
+				<h3> 12. I've been working for "Mr. Z and Co" __________ last summer.</h3>
+				<input name="vopros12" checked="checked" value="no" id="value1" type="radio"> from <br>
+				<input name="vopros12" value="no" id="value2" type="radio"> for <br>
+				<input name="vopros12" value="yes" id="value3" type="radio"> until <br>
+				<input name="vopros12" value="nо" id="value4" type="radio"> since <br><br>
+				<input value="Проверить" type="submit" class="button">
+			</form>
+			
+		</main>
+
+		<footer class="footer">
+			<div class="footer_head">
+				<h2 id="text_footer_green">Learner</h2>
+			</div>
+
+			<div class="description">
+				<p class="text_description">
+					We help you to speak English and use it confidently in life
+				</p>
+			</div>
+
+			<div class="container-socials">
+				<ul class="social">
+					<li class="social-item vk">
+						<a href="https://vk.com/" class="fa-brands fa-vk"></a>
+					</li>
+					<li class="social-item whatsapp">
+						<a href="https://www.whatsapp.com/?lang=ru" class="fa-brands fa-whatsapp"></a>
+					</li>
+					<li class="social-item telegram">
+						<a href="https://telegram.org/" class="fa-brands fa-telegram"></a>
+					</li>
+					<li class="social-item youtube">
+						<a href="https://www.youtube.com/" class="fa-brands fa-youtube"></a>
+					</li>
+				</ul>
+			</div>
+
+			<p id="about"><small>Copyright ©2022 Learner. Design by <b>RASHID</b></small></p>
+		</footer>
+	</div>
+
+	<script src="js/test.js"></script>
+</body>
+
+</html>
